@@ -1,0 +1,160 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: orange;
+}
+
+.section__wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90vh;
+  width: 80%;
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+  overflow: hidden;
+  /* box-shadow: 0 1.5rem 3rem #000; */
+}
+
+nav {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+}
+
+.main {
+  height: 90%;
+  width: 100%;
+  display: flex;
+}
+
+.main--body {
+  height: 100%;
+  width: 80%;
+  background-color: rgb(231, 227, 227);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__header {
+  height: 30%;
+  width: 95%;
+  background-color: orange;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.header__text {
+  margin: 1rem 1.5rem;
+  line-height: 1.2rem;
+  color: #ffff;
+}
+
+.header--para {
+  margin: 0.8rem 0;
+  font-size: 0.8rem;
+}
+
+.header--btn {
+  padding: 0.5rem;
+  background-color: #ffff;
+  color: orange;
+  border: none;
+  border-radius: 2rem;
+}
+
+/* side bar styling */
+.main--side {
+  height: 100%;
+  width: 20%;
+  background-color: black;
+}
+
+.main--side {
+  display: block;
+  text-align: center;
+}
+.cat--btn {
+  text-align: left;
+  color: orange;
+  width: 90%;
+  margin-top: 0.8rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cat--icon {
+  margin: 0 0.5rem;
+}
+
+.main--side a:link {
+  color: #ffff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* Popular Categories styling*/
+.popular {
+  height: 25%;
+  width: 95%;
+  /* margin: 1rem; */
+  background-color: transparent;
+}
+
+.popular__icons,
+.deal__pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon--box {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 1rem;
+  background-color: #ffff;
+  position: relative;
+}
+
+/* UTILITIES */
+.heading--secondary {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+/* Hot Deals styling */
+.deal {
+  /* height: 25%; */
+  width: 95%;
+  /* margin: 1rem; */
+  background-color: transparent;
+}
+.img--box {
+  height: 8rem;
+  width: 18%;
+  border-radius: 1rem;
+  background-color: #ffff;
+}
+
+.icon {
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+}
