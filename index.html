@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
 
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
     <!--icons-->
     <link
       rel="stylesheet"
@@ -17,7 +24,34 @@
   <body>
     <section class="section">
       <div class="section__wrap">
-        <nav class="navbar"></nav>
+        <nav class="navbar">
+          <div class="navwrap">
+            <div class="navwrap__left">
+              <div class="logo"><h1>amazon</h1></div>
+              <div class="search">
+                  <form action="">
+                  <input
+                    class="search-input"
+                    type="text"
+                    placeholder="Search..."
+                  />
+                  <!-- <label for="categories">All Categories</label> -->
+                  <select name="category" id="categories">
+                    <option value="All Categories">All Categories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Electronics">Home and Garden</option>
+                    <option value="Home and Garden">Home and Garden</option>
+                    <option value="Fashion">Fashion</option>
+                  </select>
+
+                  <button type="submit" class="search-icon">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </form>
+                </div>
+            </div>
+          </div>
+        </nav>
         <div class="main">
           <div class="main--side">
             <button class="btn cat--btn">

@@ -4,11 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .section {
   position: relative;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-color: orange;
 }
@@ -18,7 +19,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 98vh;
+  height: 110vh;
   width: 80%;
   /* border: 1px solid black; */
   border-radius: 1rem;
@@ -30,8 +31,81 @@ nav {
   height: 10%;
   width: 100%;
   background-color: black;
+  /* border: 1px solid #ffffff; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.navwrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid rgb(211, 12, 12); */
+}
+.navwrap__left {
+  width: 70%;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 30%;
+  color: #ffff;
+}
+
+.search {
+  display: flex;
+  /* border: 1px solid #f7d127; */
+  width: 70%;
+
+}
+
+/* label {
+  font-size: 0.7rem;
+  position: absolute;
+  margin: 0.7rem 0.1rem;
+  color: #ccc;
+} */
+
+.search-input {
+  /* width: 90%; */
+color: #eee;
+  padding: 0.43rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search-input::placeholder,
+#categories {
+  color: #ccc;
+  font-size: 0.7rem;
+}
+#categories {
+  margin-left: -0.3rem;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.search-icon {
+  padding: 0.5rem;
+  border: none;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  margin-left: -0.3rem;
+  /* width: 8%; */
+  /* font-size: 1rem; */
+
+  /* height: 100%; */
+  /* border-radius: 1rem; */
+  background-color: orange;
+}
 .main {
   height: 90%;
   width: 100%;
@@ -104,7 +178,7 @@ nav {
 }
 
 .main__side-text ul li {
-  margin: 0.5rem 0 0.5rem 3rem;
+  margin-left: 3rem;
   text-align: left;
   list-style: none;
 }
