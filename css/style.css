@@ -60,7 +60,6 @@ nav {
   display: flex;
   /* border: 1px solid #f7d127; */
   width: 70%;
-
 }
 
 /* label {
@@ -72,7 +71,7 @@ nav {
 
 .search-input {
   /* width: 90%; */
-color: #eee;
+  color: #eee;
   padding: 0.43rem;
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -122,7 +121,6 @@ color: #eee;
 }
 
 .navicon--box {
-  
   height: 2rem;
   width: 2rem;
   border-radius: 0.5rem;
@@ -180,11 +178,6 @@ color: #eee;
 
 /* side bar styling */
 
-
-
-
-
-
 .main--side {
   height: 100%;
   width: 20%;
@@ -194,7 +187,7 @@ color: #eee;
 .main--side {
   display: block;
 }
- .cat--btn {
+.cat--btn {
   text-align: left;
   color: orange;
   width: 90%;
@@ -214,11 +207,15 @@ color: #eee;
 }
 
 .main__side-text {
-  display: none; 
+  display: none;
 }
 
 .cat--btn:hover ~ .main__side-text {
   color: #ffb900;
+  display: block;
+}
+
+.main__side-text:hover {
   display: block;
 }
 .main__side-text ul li {
@@ -244,7 +241,7 @@ color: #eee;
 
 .mini-side i {
   margin-right: 0.5rem;
-} 
+}
 .percent-sell {
   color: #ffff;
 
@@ -259,9 +256,6 @@ color: #eee;
   color: #ffff;
 }
 
-
-
-
 /* Popular Categories styling*/
 .popular {
   /* height: 25%; */
@@ -272,7 +266,6 @@ color: #eee;
 
 .pop--icon {
   color: #ffb900;
-  
 }
 
 .popular__icons,
